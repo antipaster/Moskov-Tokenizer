@@ -21,7 +21,7 @@ client_script '@moskov_tokenizer/init.lua'
 ```
 
 ## Client
-**Po otrzymaniu tokena** może on zostać przekazany wraz z eventem serwera w celu weryfikacji po stronie serwera:
+**Po otrzymaniu tokena** Wygląda on tak:
 ```lua
 TriggerServerEvent('moskov_ac:newEvent', securityToken)
 ```
