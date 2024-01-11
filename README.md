@@ -1,12 +1,6 @@
 # moskov_tokenizer
 Tokenizer do serwera fivem. Zabezpiecza to przed dodawniem sobie itemow albo np pięniedzy poprzez rózne triggery przez cheaterów.
 
-
-base: salty
-edit: ja
-tlumaczenie: ja 
-dodatkowe funkcje: ja
-
 # Instalacja
 * Zainstaluj  [yarn](https://github.com/citizenfx/cfx-server-data) (można go w `/resources/[system]/[builders]/yarn`)
 * Zkonfiguruj `moskov_tokenizer` używając `config.lua`.
